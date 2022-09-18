@@ -1,0 +1,13 @@
+aplikasi-belanja-online
+
+READ AND WRITE "account"
+READ AND WRITE "Login"
+READ AND WRITE "Sign Up"
+
+IF  user any account
+    user "Login"
+ELSE
+    user "Sign Up"
+AND IF user finished "Sign Up"
+ELSE
+    PRINT "Please Login"
